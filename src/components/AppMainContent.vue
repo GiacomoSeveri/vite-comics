@@ -1,6 +1,6 @@
 <script>
 export default {
-    name: 'AppHeader',
+    name: 'AppMainC',
     data() {
         return {
             text: '-->CONTENT GOES HERE<--',

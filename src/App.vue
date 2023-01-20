@@ -1,6 +1,7 @@
 <script>
 import AppHeader from './components/AppHeader.vue';
 import AppMainC from './components/AppMainContent.vue';
+import AppMainN from './components/AppMainNav.vue';
 export default {
     data() {
         return {}
@@ -8,14 +9,20 @@ export default {
     components: {
         AppHeader: AppHeader,
         AppMainC: AppMainC,
+        AppMainN: AppMainN,
     }
 }
 
 </script>
 
 <template>
-    <app-header></app-header>
-    <app-main-c></app-main-c>
+    <header>
+        <app-header></app-header>
+    </header>
+    <main>
+        <app-main-c></app-main-c>
+        <app-main-n></app-main-n>
+    </main>
 </template>
 
 <style>
