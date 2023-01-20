@@ -115,6 +115,7 @@ ul {
 
     h3 {
         color: #FDFCFC;
+        cursor: pointer;
     }
 
     li {
@@ -133,6 +134,6 @@ figure {
 
 li a:hover {
     color: #FDFCFC;
-    box-shadow: 0px 1px 2px #FDFCFC;
+    text-shadow: 0px 1px 5px #FDFCFC;
 }
 </style>

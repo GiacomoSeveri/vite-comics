@@ -59,6 +59,6 @@ nav {
 }
 
 li a:hover {
-    color: #000;
+    text-shadow: 0px 1px 5px #FDFCFC;
 }
 </style>
