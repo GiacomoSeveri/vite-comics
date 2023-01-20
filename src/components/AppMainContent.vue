@@ -25,7 +25,7 @@ export default {
 
 .content-main {
     color: #FDFCFC;
-    height: 15vh;
+    height: 10vh;
     display: flex;
 
     h2 {

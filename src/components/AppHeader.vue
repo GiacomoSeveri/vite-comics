@@ -51,7 +51,7 @@ export default {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 15vh;
+    height: 10vh;
 }
 
 figure {

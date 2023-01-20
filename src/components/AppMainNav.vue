@@ -36,7 +36,7 @@ export default {
 }
 
 nav {
-    height: 25vh;
+    height: 15vh;
 
     ul {
         display: flex;
@@ -44,7 +44,7 @@ nav {
         list-style-type: none;
 
         li {
-            margin-top: 2.35rem;
+            margin-top: 2.5rem;
 
             a {
                 text-decoration: none;
