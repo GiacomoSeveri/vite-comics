@@ -128,7 +128,7 @@ ul {
 }
 
 figure {
-    width: 350px;
+    width: 500px;
     cursor: pointer;
 }
 
