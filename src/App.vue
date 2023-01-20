@@ -3,6 +3,7 @@ import AppHeader from './components/AppHeader.vue';
 import AppMainC from './components/AppMainContent.vue';
 import AppMainN from './components/AppMainNav.vue';
 import AppMainT from './components/AppMianTerms.vue';
+import AppFooter from './components/AppFooter.vue';
 export default {
     data() {
         return {}
@@ -12,6 +13,7 @@ export default {
         AppMainC: AppMainC,
         AppMainN: AppMainN,
         AppMainT: AppMainT,
+        AppFooter: AppFooter,
     }
 }
 
@@ -26,6 +28,9 @@ export default {
         <app-main-n></app-main-n>
         <app-main-t></app-main-t>
     </main>
+    <footer>
+        <app-footer></app-footer>
+    </footer>
 </template>
 
 <style>
