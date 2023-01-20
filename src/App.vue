@@ -1,11 +1,13 @@
 <script>
 import AppHeader from './components/AppHeader.vue';
+import AppMainC from './components/AppMainContent.vue';
 export default {
     data() {
         return {}
     },
     components: {
         AppHeader: AppHeader,
+        AppMainC: AppMainC,
     }
 }
 
@@ -13,6 +15,7 @@ export default {
 
 <template>
     <app-header></app-header>
+    <app-main-c></app-main-c>
 </template>
 
 <style>
@@ -30,5 +33,9 @@ body {
 .container {
     max-width: 1048px;
     margin: 0 auto;
+}
+
+img {
+    max-width: 100%;
 }
 </style>

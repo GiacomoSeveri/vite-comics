@@ -31,7 +31,7 @@ export default {
     <div class="container flex-header">
         <div>
             <figure>
-                <a href="#"><img :src="buildImg(image)" alt="dc-logo"></a>
+                <img :src="buildImg(image)" alt="dc-logo">
             </figure>
         </div>
         <div>
@@ -51,14 +51,18 @@ export default {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 30vh;
+    height: 15vh;
+}
+
+figure {
+    width: 50px;
+    cursor: pointer;
 }
 
 ul {
     display: flex;
     justify-content: space-between;
     list-style-type: none;
-    // height: auto;
 
     li {
         a {
@@ -72,6 +76,6 @@ ul {
 
 li a:hover {
     color: #0282F9;
-    border-bottom: solid 2px #0282F9;
+    border-bottom: solid 3px #0282F9;
 }
 </style>
